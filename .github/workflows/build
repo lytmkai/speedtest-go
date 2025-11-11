@@ -5,8 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
-  release:
-    types: [ published ]  # 当你发布 GitHub Release 时触发
+  workflow_dispatch:
+    
 
 jobs:
   build:
